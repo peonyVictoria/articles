@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WikiDogs</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="page-wrapper">
+		<div class="sidebar-col">
+			<div class="aside-block">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/WikiDogs-logo.png" alt="WikiDogs">
+					</a>
+				</div>
+			</div>
+			<div class="aside-block">
+				<a href="new.html" class="button-new">Добавить статью</a>
+			</div>
+			<div class="aside-block">
+				<h3 class="aside-title">
+					Новые статьи
+				</h3>
+				<ul class="articles-list" id="new-articles"></ul>
+			</div>
+		</div>
+		<div class="main-col">
+			<article class="article-wrapper" id="article"></article>
+			<button href="new.html" class="button" id="edit-article">Редактировать статью</button>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/article.js"></script>
+</body>
+</html>

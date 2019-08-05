@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WikiDogs</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="page-header page-header--wide">
+		<div class="page-header__logo">
+			<a href="index.html"><img src="img/WikiDogs-logo.png" alt="WikiDogs"></a>
+		</div>
+		<div class="page-header__page-title">
+			<h1 id="header-text">Добавить новую статью</h1>
+		</div>
+	</header>
+	<div class="page-wrapper page-wrapper--wide">
+		<div class="editor-col">
+			<div class="editor-section-title">
+				Редактор статьи
+			</div>
+			<div class="form-group">
+				<input class="form-input" type="text" placeholder="Введите название статьи" id="article-title">
+			</div>
+
+			<div class="form-group">
+				<textarea class="form-textarea" name="" cols="30" rows="10" placeholder="Введите текст статьи" id="markdown-source"></textarea>
+			</div>
+			<button class="button" id="save-article-button">Сохранить статью</button>
+		</div>
+		<div class="article-preview-col">
+			<div class="article-preview-section-title">
+				Предпросмотр статьи
+			</div>
+			<article class="article-wrapper" id="markdown-result">
+			</article>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	<script src="js/init.js"></script>
+	<script src="js/new.js"></script>
+</body>
+</html>

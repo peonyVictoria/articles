@@ -1,0 +1,345 @@
+body {
+	background-color: #F6F6F6;
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Georgia', 'Times', serif;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: #06003b;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+.page-header {
+	max-width: 1200px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-header--wide {
+	max-width: 1500px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+.page-header__logo {
+	width: 130px;
+	margin-right: 50px;
+	border-right: 1px solid #C8CCD1;
+	padding-right: 25px;
+}
+
+ .page-header__page-title {
+	display: flex;
+	align-items: center;
+}
+
+.page-header__page-title h1 {
+	font-size: 38px;
+	margin: 0;
+}
+
+.page-wrapper {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.page-wrapper--wide {
+	max-width: 1500px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+
+.sidebar-col {
+	padding-left: 15px;
+	flex-basis: 300px;
+	flex-shrink: 0;
+	border-right: 1px solid #C8CCD1;
+}
+
+.main-col {
+	width: 100%;
+	padding-left: 35px;
+	padding-right: 25px;
+	background-color: #fff;
+}
+
+.editor-col {
+	padding: 10px;
+	flex-basis: 40%;
+	flex-shrink: 0;
+	border: 1px solid #C8CCD1;
+}
+
+.article-preview-col {
+	padding: 10px;
+	flex-basis: 40%;
+	flex-shrink: 0;
+	border: 1px solid #C8CCD1;
+	background-color: #fff;
+}
+
+.editor-section-title {
+	background: #e4ebef;
+	padding: 15px 35px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 35px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.article-preview-section-title {
+	background: #7e919c;
+	padding: 15px 35px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.logo img {
+	max-width: 200px;
+}
+
+.title-medium {
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-input {
+	padding: 7px 15px;
+	width: 100%;
+	font-size: 16px;
+	border: 1px solid #a2a9b1;
+	border-radius: 5px;
+}
+
+.form-input:focus {
+	outline: none;
+	border: 1px solid #000;
+}
+
+.form-textarea {
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 10px 15px;
+	width: 100%;
+	min-height: 300px;
+	font-family: sans-serif;
+	border: 1px solid #a2a9b1;
+	border-radius: 5px;
+}
+
+.form-textarea:focus {
+	outline: none;
+	border: 1px solid #000;
+}
+
+.form-select {
+	padding: 10px 15px;
+	width: 100%;
+	font-size: 18px;
+	border: 1px solid #a2a9b1;
+}
+
+.section-block {
+	padding: 20px 20px;
+	border: 1px solid #c8ccd1;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.section-block p:last-child {
+	margin-bottom: 0;
+}
+
+.section-block .article-wrapper h2 {
+	margin-top: 0;
+	font-size: 28px;
+}
+
+.title {
+	font-family: 'Georgia', 'Times', serif;
+	font-weight: 700;
+	font-size: 26px;
+	text-align: center;
+}
+
+.title-new-article {
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.other-list {
+	font-size: 16px;
+}
+
+.other-list__item {
+	margin-bottom: 15px;
+}
+
+.aside-block {
+	padding: 20px 20px;
+	border-top: 1px solid #C8CCD1;
+}
+
+.aside-block:first-child {
+	border-top: none;
+	padding-top: 0; 
+}
+
+.aside-title {
+	font-size: 24px;
+	font-family: 'Georgia', 'Times', serif;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.articles-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 25px;
+	font-size: 15px;
+}
+
+.articles-list-item {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 15px;
+	line-height: 1.5;
+}
+
+.articles-list-link {
+	display: inline-block;
+}
+
+.article-wrapper a {
+	text-decoration: none;
+}
+
+.article-wrapper p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.article-wrapper h1 {
+	font-weight: 500;
+	font-size: 38px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(162, 169, 177, 0.3);
+}
+
+.article-wrapper h2 {
+	font-weight: 500;
+	font-size: 28px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(162, 169, 177, 0.3);
+}
+
+.article-wrapper h3 {
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.article-wrapper h4 {
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.article-wrapper h5 {
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.article-wrapper h6 {
+	font-family: sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.button-new {
+	background-color: #000;
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	border: none;
+	padding: 15px 20px;
+	border-radius: 6px;
+	width: 100%;
+	display: block;
+	transition: 
+		background-color 0.2s ease-in, 
+		color 0.2s ease-in;
+	cursor: pointer;
+	text-decoration: none;
+	text-align: center;
+}
+
+.button-new:hover {
+	opacity: 0.9;
+}
+
+.button {
+	margin-top: 7px;
+	background-color: #f8f9fa;
+	color: #000;
+	font-weight: 400;
+	font-size: 14px;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+	display: inline-block;
+	transition: 
+		background-color 0.2s ease-in, 
+		color 0.2s ease-in;
+	cursor: pointer;
+	border: 1px solid #a2a9b1;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #E9EBED;
+	color: #000;
+}
